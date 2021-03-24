@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #dbdbdb;
+	background:url(123.jpg);
+
+	background-repeat:repeat-x;
+}
+*
+/*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}*/
+
+
+#mainPicture
+{
+	clear:both;
+	width:670px;
+	height:345px;
+	background-color:#000000;
+}
+
+#mainPicture .picture
+{
+	position:relative;
+	width:650px;
+	height:325px;
+	top:10px;
+	margin-left:10px;
+	background-image:url(123.jpg);
+	background-repeat:no-repeat;
+
+}
+
+#headerTitle
+{
+	position:relative;
+	top:14px;
+	left:22px;
+	font-size:70px;
+	color:#dbdbdb;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerSubtext
+{
+	position:relative;
+	top:12px;
+	left:22px;
+	font-size:52px;
+	color:#dbdbdb;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+
+html, body {
+	text-align: center;
+
+}
+p {text-align: left;}
+
+

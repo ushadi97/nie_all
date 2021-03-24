@@ -1,0 +1,44 @@
+body, html {
+    height: 95%;
+    margin: 0;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("../image/susan-yin-2JIvboGLeho-unsplash.jpg");
+
+    /* Add the blur effect */
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.form-container{
+    position: absolute;
+    top: 15vh;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
